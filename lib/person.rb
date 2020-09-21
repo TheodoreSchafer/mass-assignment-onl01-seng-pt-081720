@@ -1,7 +1,7 @@
 class Person
   attr_accessor :name, :birthday, :hair_color, :eye_color, :weight, :height
 
-  def initialize(name:)
+  def initialize(name:, birthday:, hair_color:)
     @name = name
     @birthday = birthday
     @hair_color = hair_color
