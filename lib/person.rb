@@ -1,5 +1,5 @@
 class Person
-  attr_accessor :name,
+  attr_accessor :name, :birthday, :hair_color, :eye_color, :weight, :height
 
   def initialize
   end
