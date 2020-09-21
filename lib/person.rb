@@ -3,7 +3,7 @@ class Person
 
   def initialize(attribute)
     attributes.each do |key, value|
-      self.send(("#{key}")), value
+      self.send(("#{key}"), value)
     end
   end
 
