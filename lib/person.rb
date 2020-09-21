@@ -2,12 +2,9 @@ class Person
   attr_accessor :name, :birthday, :hair_color, :eye_color, :weight, :height
 
   def initialize(attribute)
-    @name = name
-    @birthday = birthday
-    @hair_color = hair_color
-    @eye_color = eye_color
-    @weight = weight
-    @height = height
+    attributes.each do |key, value|
+      self.send(("#{key}"))
+
   end
   #your code here
 end
