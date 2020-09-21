@@ -7,6 +7,6 @@ class Person
     end
   end
 
-  end
+
   #your code here
 end
